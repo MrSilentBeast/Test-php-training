@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+body {
+    background: #212060;
+}
+
+h1, h2, h3, p, a {
+    color: white;
+    font-family: "Ubuntu";
+}
+
+/* Header title */
+
+.header-title {
+    text-align: center;
+}
+
+.title-h {
+    font-size: 28px;
+    padding-top: 40px;
+}
+
+/* Section */
+
+.image-board {
+    margin-top: 20px;
+}
+
+.main-image {
+    text-align: center;
+}
+
+.image-section-who {
+    max-width: 1050px;
+    max-height: 1050px;
+}
+
+/* Index button */
+
+.button-go {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-go > a {
+    border: 1px solid #302f6f;
+    border-radius: 6px;
+    background: #302f6f;
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button-go > a:hover {
+    border: 1px solid #0e0d3c;
+    border-radius: 6px;
+    background: #0e0d3c;
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+/* Form */
+
+.title-question {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.radio-button {
+    margin-top: 10px;
+}
+
+.go-button {
+    border: 1px solid #302f6f;
+    border-radius: 6px;
+    background: #302f6f;
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: "Ubuntu";
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.go-button:hover {
+    border: 1px solid #0e0d3c;
+    border-radius: 6px;
+    background: #0e0d3c;
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+    color: white;
+    font-family: "Ubuntu";
+
+}
